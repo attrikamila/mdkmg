@@ -1,0 +1,86 @@
+#contato{
+    background-color: var(--bg-gray-section);
+}
+#contato #title,
+#contato #comprometimento,
+#contato #codigo-etica
+{
+    padding: var(--section-y) 0;
+}
+#contato{ padding-top: 24vh; }
+#contato #title h2 {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+
+#contato #forms .pill{
+    height: 61px;
+    background: rgba(67, 41, 124, 0.1);
+    opacity: 0.6;
+    border: 1px solid #43297C;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#contato #forms .pill span{
+    color: var(--frooty-roxo);
+}
+#contato #forms .pill.active,
+#contato #forms .pill:hover{
+    background: var(--frooty-amarelo);
+    border: 1px solid var(--frooty-amarelo);
+    opacity: 1;
+}
+#contato #forms .pill.active span,
+#contato #forms .pill:hover span{
+    color: var(--frooty-roxo);
+    font-weight: 800;
+}
+#contato #forms input:not(input[type=radio]){
+    padding: 0 1.5rem;
+    height: 50px;
+}
+#contato #forms input[type=radio]{
+    width: 20px;
+    height: 20px;
+}
+#contato #forms label.radio {
+    color: var(--paragraph-color);
+}
+#contato #forms label.radio a{
+    color: var(--frooty-roxo);
+    font-size: var(--terms-text);
+}
+#contato #forms label.radio span{
+    position: relative;
+    top: -3px;
+}
+#contato #forms input {
+    border: 1px solid #898989;
+    border-radius: 90px;
+    box-sizing: border-box;
+}
+#contato #forms input.file {
+    border: 1px dashed #898989;
+    background-color: transparent;
+}
+#contato #forms textarea {
+    height: 175px;
+    border: 1px solid #898989;
+    border-radius: 33px;
+    padding: 1rem 1.5rem;
+}
+#contato #forms form:not(.active){
+    display: none;
+}
+#contato #forms .bg{
+    background-image: url("../img/pagina_contato.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+#contato #codigo-etica h2 {
+    font-size: var(--titles);
+    color: var(--frooty-roxo);
+    font-weight: 800;
+}

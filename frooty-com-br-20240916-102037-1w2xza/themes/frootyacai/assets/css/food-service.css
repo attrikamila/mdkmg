@@ -1,0 +1,83 @@
+#food-service { background-color: var(--bg-gray-section); }
+
+#food-service #title,
+#food-service #sobre-frooty,
+#food-service .depoimentos{
+    padding: var(--section-y) 0;
+}
+
+#food-service { padding-top: 24vh; }
+
+#food-service{
+    background-image: url('../img/banner-food-service.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#food-service #title h2,
+#food-service #sobre-frooty h2{
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+#food-service #title h3 {
+    font-size: var(--titles);
+    color: var(--frooty-pitaya);
+    font-weight: 800;
+}
+
+#food-service .receitas .container{
+    background-color: #fff;
+    padding: 5rem;
+    border-radius: 40px;
+}
+#food-service .receitas h2 {
+    font-size: var(--titles);
+}
+
+#food-service #interessado {
+    background-image: url('../img/bg-food-service-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 975px;
+    margin-top: -60vh;
+    padding-top: 35vh;
+}
+
+#food-service #interessado h2 {
+    font-size: var(--titles);
+    color: var(--text-white-color);
+    font-weight: 400;
+}
+#food-service #interessado strong{
+    color: var(--frooty-pitaya);
+}
+#food-service #interessado input[type=text],
+#food-service #interessado input[type=email] {
+    height: 50px;
+    border: 1px solid #898989;
+    border-radius: 90px;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+}
+#food-service #interessado input[type=radio]{
+    width: 20px;
+    height: 20px;
+}
+#food-service #interessado label{
+    color: var(--text-white-color);
+}
+#food-service #interessado label a{
+    color: var(--frooty-pitaya);
+    text-decoration: underline;
+}
+#food-service #interessado label span{
+    position: relative;
+    top: -4px;
+    padding-left: 5px;
+}
+#food-service #slide-produtos-home img{
+	height: 200px;
+}

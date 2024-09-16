@@ -1,0 +1,108 @@
+#receita { background-color: var(--bg-gray-section); }
+
+#receita #title,
+#receita #modo-preparo,
+#receita #sabor-que-nutre{
+    padding: var(--section-y) 0;
+}
+
+#receita { padding-top: 24vh; }
+
+#receita #title h2 {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+
+#receita #title span {
+    color: var(--frooty-roxo);
+    font-size: var(--titles);
+    font-weight: 600;
+}
+
+#receita #content {
+    background-image: linear-gradient(92.29deg, #5925CB -20.22%, #43297C 34.89%, #4F2C9A 74.58%, #632DDA 120.87%);
+    background-position: 0px 150px;
+    background-repeat: no-repeat;
+}
+
+#receita #content h3 {
+    font-size: var(--titles);
+    font-weight: 800;
+    color: var(--frooty-amarelo);
+}
+#receita #content strong{
+    color: var(--text-white-color);
+    margin: 1rem 0;
+    display: block;
+}
+#receita #content ol li{
+    color: var(--text-white-color);
+    margin: .4rem 0;
+    list-style: disc;
+}
+#receita #content .tips ul li{
+    margin: .8rem 0;
+    list-style: none;
+    padding-left: 10px;
+}
+#receita #content .tips ul li a{
+    color: var(--text-white-color);
+}
+#receita #content .tips p {
+    color: var(--text-white-color);
+}
+#receita .tips img {
+    background-color: #fff;
+    width: 60px;
+    border-radius: 10px;
+}
+#receita #modo-preparo h2,
+#receita #modo-preparo h3{
+    font-size: var(--titles);
+    font-weight: 800;
+}
+#receita #modo-preparo h2{
+    color: var(--frooty-roxo);
+    margin: 1.5rem 0;
+}
+#receita #modo-preparo h3{
+    color: var(--frooty-pitaya);
+    margin: 2.5rem 0;
+}
+
+#receita #modo-preparo ol {
+    list-style: none; counter-reset: li;
+}
+#receita #modo-preparo ol li{
+    list-style: none;
+    counter-increment: li;
+}
+#receita #modo-preparo ol li::before {
+    content: counter(li);
+    color: var(--frooty-pitaya);
+    font-weight: 800;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#receita #dica-frooty .bg{
+    border: 2px solid var(--frooty-amarelo);
+    border-radius: 20px;
+    min-height: 220px;
+}
+#receita #dica-frooty .bg h2 {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--medium-section-title);
+    color: var(--frooty-pitaya);
+}
+#receita #dica-frooty .bg p {
+    color: var(--frooty-roxo);
+}
+#receita #content .img-destaque{
+    height: 335px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}

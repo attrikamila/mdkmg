@@ -1,0 +1,50 @@
+#sustentabilidade{
+    background-color: var(--bg-gray-section);
+}
+#sustentabilidade #cuidar-natureza,
+#sustentabilidade #features,
+#sustentabilidade .depoimentos,
+#sustentabilidade #comprometimento{
+    padding: var(--section-y) 0;
+}
+#sustentabilidade{ padding-top: 24vh; }
+#sustentabilidade #cuidar-natureza h2 {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-title);
+    color: var(--frooty-roxo);
+}
+#sustentabilidade #cuidar-natureza h3 {
+    font-size: var(--titles);
+    color: var(--frooty-pitaya);
+    font-weight: 800;
+}
+#sustentabilidade #cuidar-natureza button{
+    width: 194px;
+}
+
+#sustentabilidade #features h2,
+#sustentabilidade #comprometimento h2{
+    color: var(--frooty-roxo);
+    font-size: var(--titles);
+    font-weight: 800;
+}
+
+#sustentabilidade #comprometimento {
+    background-image: url("../img/bg-comprometimento-page-sustentabilidade.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+#sustentabilidade #comprometimento ul li {
+    margin-bottom: 1.5rem;
+    color: var(--paragraph-color);
+}
+#sustentabilidade #comprometimento ul li::before {
+    content: "\2022";
+    color: var(--frooty-graviola);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+#sustentabilidade br{
+    display: none;
+}

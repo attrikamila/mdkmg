@@ -1,0 +1,52 @@
+/*
+Theme Name: Attri - Frooty Açai
+Theme URI: https://frootyacai.com.br
+Author: Attri
+Author URI: https://attri.com.br
+Description: Um tema inicial totalmente responsivo, pronto para SEO, pronto para esquema, pronto para mídia social, pronto para acessibilidade, pronto para tradução e pronto para jQuery para designers e desenvolvedores,
+Tags:
+Version: 0.0.1
+Tested up to: 5.9
+Requires PHP: 7.0
+License: Licença geral de uso da Attri
+License URI: https://attri.com.br
+Text Domain: Frooty Açai
+
+Attri WordPress Theme © 2022
+Tema customizado desenvolvido para Frooty Açai
+*/
+
+
+.login h1 a {
+    background-image: url('../../uploads/2022/09/logo-frooty.png');
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+
+body.login {
+    background: #ffcb05;
+}
+
+body.login #loginform {
+    background: #43297c;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.3);
+}
+
+body.login #loginform input#wp-submit{
+    background: #ffcb05;
+    color: black;
+    border: none;
+    border: none;
+    width: 100%;
+    margin-top: 1rem;
+    transition: all .4s;
+}
+body.login #loginform input#wp-submit:hover{
+    opacity: .5;
+}

@@ -1,0 +1,645 @@
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1296px;
+    }
+}
+
+@media (max-width: 576px) {
+    :root {
+        /*Font sizes*/
+        --big-title: 2rem;
+        --big-section-title: 3rem;
+        /*Spaces*/
+        --section-y: 24px;
+    }
+
+    /*Padding*/
+    #receitas,
+    #receita,
+    #onde-encontrar,
+    #busca,
+    #food-service,
+    #produto,
+    #produtos,
+    #contato,
+    #sustentabilidade,
+    #codigo-politicas,
+    #error,
+    #a-marca {
+        padding-top: 12vh;
+    }
+
+    header {
+        position: relative;
+    }
+
+    header #mobile-menu-container {
+        position: fixed;
+        width: 100%;
+        z-index: 9998;
+        background-color: var(--frooty-amarelo);
+    }
+
+    header #mobile-menu-container i {
+        font-size: 1.6rem;
+        color: var(--frooty-pitaya);
+    }
+
+    header nav {
+        right: -500px;
+        position: fixed;
+        z-index: 9998;
+        width: 100%;
+    }
+
+    header nav menu ul {
+        top: 0rem;
+    }
+
+    header nav .bg-menu {
+        background: var(--frooty-amarelo);
+    }
+
+    header nav .container-logo {
+        text-align: center;
+    }
+
+    header nav .container-logo img {
+        text-align: center;
+        width: 110px;
+    }
+
+    header .container-logo-mobile img {
+        width: 110px;
+    }
+
+    header nav .container-logo i {
+        font-size: 1.6rem;
+        color: var(--frooty-pitaya);
+    }
+
+    header .container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    header .container .row {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    header nav menu {
+        padding-top: 2rem !important;
+        width: 100%;
+    }
+
+    header nav menu ul li {
+        display: block;
+        margin-bottom: .8rem;
+    }
+
+    header nav menu>ul>li {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    header nav .bg-menu {
+        min-height: 100vh;
+        border-radius: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    header nav menu ul li a i {
+        float: right;
+    }
+
+    header nav menu ul li .submenu {
+        position: relative !important;
+        width: 100% !important;
+        border-radius: 0 0 10px 10px;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.5s, opacity 0.3s linear;
+        margin-top: -5px;
+        left: -1.8rem;
+        display: none;
+        background: transparent;
+    }
+
+    header nav menu ul li .submenu li {
+        display: block;
+        overflow: visible;
+        white-space: nowrap;
+        margin-left: 2.5rem;
+    }
+
+    header nav menu ul li .submenu a {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #produtos .slider-produtos figure {
+        margin: 0 0rem;
+    }
+
+    header nav menu ul .trigger-menu:hover a+.submenu {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+
+    footer .contato .bg {
+        height: auto !important;
+    }
+
+    footer menu {
+        padding: 30px 0;
+    }
+
+    header nav menu ul li .submenu a {
+        font-size: .9rem;
+    }
+
+    #home #carousel-principal .carousel-item {
+        padding-top: 15vh;
+    }
+
+    #home #carousel-principal h2 {
+        font-family: "FrootyADP", sans-serif;
+        font-size: 2.5rem;
+        color: var(--frooty-roxo);
+    }
+
+    .categories,
+    #home .depoimentos {
+        padding: var(--section-y) / 3 0;
+    }
+
+    .categories .bg-white {
+        min-height: 320px;
+        height: auto;
+    }
+
+    #home .slider-produtos figure {
+        margin: 4rem 2rem;
+        padding: 0rem 0;
+    }
+
+    .slick-prev {
+        left: 0;
+    }
+
+    .slick-next {
+        right: 25px;
+    }
+
+    #home .slider-produtos figure figcaption h2.conhecer {
+        color: var(--frooty-pitaya);
+        opacity: 1;
+    }
+
+    #home .receitas ul li {
+        display: inline-flex;
+        margin-right: 1rem;
+    }
+
+    #home .depoimentos figure h2 {
+        font-size: calc(var(--section-title) / 1.2);
+        padding: 0 3rem;
+    }
+
+    #home .food-service {
+        min-height: 970px;
+        margin-top: -33vh;
+        background-color: var(--bg-gray-section);
+        background-image: none;
+    }
+
+    #home .food-service .container-service h2 {
+        text-align: center;
+        color: #fff;
+        text-shadow: 5px 4px 7px var(--paragraph-color);
+    }
+
+    #home .food-service .container-service p {
+        color: #fff;
+        text-shadow: 5px 4px 7px var(--paragraph-color);
+    }
+
+    /*Sobre*/
+    #sobre #carousel-principal .carousel-item {
+        background-position: -280px;
+        background-size: cover;
+        padding-top: 24vh;
+        padding-bottom: 7vh;
+    }
+
+    #sobre #carousel-principal h2 span {
+        opacity: 1;
+    }
+
+    #sobre #carousel-principal h2 {
+        font-family: "FrootyADP", sans-serif;
+        font-size: var(--big-section-title);
+        color: var(--text-white-color);
+        opacity: 1;
+        text-shadow: 5px 4px 7px var(--frooty-roxo);
+    }
+
+    #sobre #manifesto .absolute {
+        position: absolute;
+        color: #ffffff;
+    }
+
+    #sobre #manifesto .absolute p {
+        color: var(--frooty-blueberry);
+    }
+
+    #sobre #manifesto img {
+        height: 855px;
+        opacity: .3;
+    }
+
+    #sobre #de-onde-vem .line {
+        background-image: none;
+    }
+
+    /*Sustentabilidade*/
+    #sustentabilidade #comprometimento {
+        margin-bottom: 8rem;
+    }
+
+    /*Contato*/
+    #contato #forms .bg {
+        background-image: none;
+    }
+
+    /*Produtos*/
+    #produtos {
+        background-image: none;
+    }
+
+    #map {
+        zoom: .7;
+    }
+
+    .box-mapa-mundi svg {
+        zoom: .3;
+    }
+
+    /*Food Service*/
+    #food-service .receitas .container {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 40px;
+    }
+
+    #food-service #interessado {
+        margin-top: -48vh;
+    }
+
+    /*A Marca*/
+    #a-marca {
+        background-size: auto;
+    }
+
+    #a-marca #depoimentos-title p {
+        color: var(--frooty-pitaya);
+    }
+
+    #a-marca #depoimentos-title p span {
+        color: var(--frooty-pitaya);
+        font-weight: 800;
+    }
+
+    /*Codigo e Politicas*/
+    #codigo-politicas #container-contato .bg {
+        padding: 1rem;
+    }
+
+    #error #title {
+        background-image: none;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    :root {
+        /*Spaces*/
+        --section-y: 24px;
+    }
+
+    /*Padding*/
+    #receitas,
+    #receita,
+    #onde-encontrar,
+    #busca,
+    #food-service,
+    #produto,
+    #produtos,
+    #contato,
+    #sustentabilidade {
+        padding-top: 12vh;
+    }
+
+    header {
+        position: relative;
+    }
+
+    header #mobile-menu-container {
+        position: fixed;
+        width: 100%;
+        z-index: 9998;
+        background-color: var(--frooty-amarelo);
+    }
+
+    header #mobile-menu-container i {
+        font-size: 1.4rem;
+        color: var(--frooty-pitaya);
+    }
+
+    header nav {
+        right: -1000px;
+        position: fixed;
+        z-index: 9999;
+        width: 50%;
+    }
+
+    header nav menu ul {
+        top: 0;
+    }
+
+    header nav .bg-menu {
+        background: var(--frooty-amarelo);
+    }
+
+    header nav .container-logo {
+        text-align: center;
+    }
+
+    header nav .container-logo img {
+        text-align: center;
+        width: 110px;
+    }
+
+    header .container-logo-mobile img {
+        width: 110px;
+    }
+
+    header nav .container-logo i {
+        font-size: 1.5rem;
+        color: var(--frooty-pitaya);
+    }
+
+    header .container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    header .container .row {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    header nav menu {
+        padding-top: 2rem !important;
+        width: 100%;
+    }
+
+    header nav menu ul li {
+        display: block;
+        margin-bottom: .8rem;
+    }
+
+    header nav menu>ul>li {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    header nav .bg-menu {
+        min-height: 100vh;
+        border-radius: 0;
+        position: absolute;
+        top: 0;
+        box-shadow: 9px 0px 9px 9px var(--frooty-acai);
+    }
+
+    header nav menu ul li a i {
+        float: right;
+    }
+
+    header nav menu ul li .submenu {
+        position: relative !important;
+        width: 100% !important;
+        border-radius: 0 0 10px 10px;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.5s, opacity 0.3s linear;
+        margin-top: -5px;
+        left: -1.8rem;
+        display: none;
+        background: transparent;
+    }
+
+    header nav menu ul li .submenu li {
+        display: block;
+        overflow: visible;
+        white-space: nowrap;
+    }
+
+    header nav menu ul .trigger-menu:hover a+.submenu {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+
+    footer .contato .bg {
+        height: auto !important;
+    }
+
+    footer menu {
+        padding: 30px 0;
+    }
+
+    header nav menu ul li .submenu a {
+        font-size: .9rem;
+    }
+
+    header nav menu ul li .submenu li {
+        display: block;
+        overflow: visible;
+        white-space: nowrap;
+        margin-left: 2.5rem;
+    }
+
+    header nav menu ul li .submenu a {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    #produtos .slider-produtos figure {
+        margin: 0 0rem;
+    }
+
+    #home #carousel-principal .carousel-item {}
+
+    .categories,
+    #home .depoimentos {
+        padding: var(--section-y) / 3 0;
+    }
+
+    .categories .bg-white {
+        min-height: 320px;
+        height: auto;
+    }
+
+    #home .depoimentos .bg-white {
+        min-height: 300px;
+    }
+
+    #home .slider-produtos figure {
+        margin: 0 0rem;
+    }
+
+    .slick-prev {
+        left: 0;
+    }
+
+    .slick-next {
+        right: 0;
+    }
+
+    #home .slider-produtos figure figcaption h2.conhecer {
+        color: var(--frooty-pitaya);
+        opacity: 1;
+    }
+
+    #home .receitas ul li {
+        display: inline-flex;
+        margin-right: 1rem;
+    }
+
+    #home .depoimentos figure h2 {
+        font-size: calc(var(--section-title) / 1.2);
+    }
+
+    #home .food-service {
+        min-height: 770px;
+        margin-top: -33vh;
+        background-color: var(--bg-gray-section);
+        background-image: none;
+    }
+
+    #sobre #carousel-principal .carousel-item {
+        background-position: -160px;
+        min-height: auto !important;
+        background-size: 90%;
+        padding-top: 120px;
+    }
+
+    #sobre #de-onde-vem .line {
+        background-image: none;
+    }
+
+    /*Sustentabilidade*/
+    #sustentabilidade #comprometimento {
+        margin-bottom: 8rem;
+    }
+
+    #map {
+        zoom: .8;
+    }
+
+    .box-mapa-mundi svg {
+        zoom: .7;
+    }
+
+    /*Food Service*/
+    #food-service .receitas .container {
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 40px;
+    }
+
+    #home .food-service .container-service h2 {
+        text-align: center;
+        color: #fff;
+        text-shadow: 5px 4px 7px var(--paragraph-color);
+    }
+
+    #home .food-service .container-service p {
+        color: var(--frooty-roxo);
+        text-shadow: 5px 4px 7px var(--paragraph-color);
+    }
+
+    #food-service #interessado {
+        margin-top: -320px;
+    }
+
+    #a-marca {
+        background-size: 80%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    header nav menu ul {
+        top: 5.5vh;
+    }
+
+    header nav menu ul li {
+        margin-left: 8.5px;
+        margin-right: 8.5px;
+        font-size: var(--terms-text);
+    }
+
+    header nav menu ul li .submenu {
+        margin-top: -22px;
+    }
+
+    #home #carousel-principal .carousel-item {
+        padding-top: 34vh;
+    }
+
+    #home .slider-produtos figure {
+        margin: 0 2rem;
+    }
+
+    #sobre #carousel-principal .carousel-item {
+        background-position: -100px;
+        min-height: auto;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        padding-top: 24vh;
+        padding-bottom: 7vh;
+    }
+
+    #sobre #de-onde-vem .line {
+        background-image: none;
+    }
+
+    /*Sustentabilidade*/
+    #sustentabilidade #comprometimento {
+        margin-bottom: 8rem;
+    }
+
+    #map {
+        zoom: 1;
+    }
+
+    .box-mapa-mundi svg {
+        zoom: .8;
+    }
+
+    #a-marca {
+        background-size: 70%;
+    }
+}

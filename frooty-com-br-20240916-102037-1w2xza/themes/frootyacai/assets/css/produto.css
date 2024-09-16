@@ -1,0 +1,107 @@
+#produto {
+    padding-top: 24vh;
+    background-color: var(--bg-gray-section);
+}
+
+#produto #single,
+#produto #mais-frooty{
+    padding: var(--section-y) 0;
+}
+
+#produto #single h2 {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-title);
+    color: var(--frooty-roxo);
+}
+
+#produto #single ul li {
+    list-style: disc;
+    margin-bottom: 1rem;
+    color: var(--paragraph-color);
+    font-size: var(--titles);
+    font-weight: 600;
+    text-transform: lowercase;
+}
+#produto #single ul li:first-letter {text-transform: capitalize;}
+
+#produto #single img{
+    background-color: #ececec;
+    border-radius: 20px;
+}
+
+#produto .accordion .accordion-button:not(.collapsed) {
+    color: var(--frooty-roxo);
+    background-color: transparent;
+}
+
+#produto .accordion .accordion-button::after {
+    display: none;
+}
+
+#produto .accordion .accordion-item {
+    border: none;
+    background-color: transparent;
+}
+
+#produto .accordion .accordion-button {
+    padding-left: 0 !important;
+    border-bottom: 1px solid var(--frooty-roxo);
+    background-color: transparent;
+}
+
+#produto .accordion-button:focus {
+    /*border-color: transparent;*/
+    outline: 0;
+    box-shadow: none;
+}
+
+#produto .accordion h3 button {
+    color: var(--frooty-roxo);
+    font-size: var(--titles);
+    font-weight: 600 !important;
+}
+
+#produto .accordion .accordion-item i {
+    color: var(--frooty-pitaya);
+}
+
+#produto .accordion table {
+    background-color: #fff;
+}
+
+#produto .accordion table thead tr.porcao {
+    background-color: var(--frooty-amarelo);
+    font-weight: 400 !important;
+}
+
+#produto .accordion table thead tr.porcao th {
+    border-radius: 15px 15px 0px 0px;
+}
+
+#produto .accordion table .header th {
+    color: var(--frooty-roxo);
+    font-weight: 800 !important;
+    border: none;
+}
+
+#produto .accordion table tbody td {
+    color: var(--paragraph-color);
+}
+
+#produto #accordionProduto p.ingredientes::first-letter {
+    text-transform: capitalize;
+}
+
+#produto #accordionProduto p.ingredientes {
+    text-transform: lowercase;
+}
+#produto #mais-frooty .title{
+    font-size: var(--titles);
+    font-weight: 800;
+    color: var(--frooty-pitaya);
+}
+#produto #mais-frooty figure figcaption h2{
+    color: var(--paragraph-color);
+    font-weight: 800;
+    font-size: var(--titles);
+}

@@ -1,0 +1,106 @@
+#produtos {
+    background-color: var(--bg-gray-section);
+}
+
+#produtos #title,
+#produtos #comprometimento,
+#produtos #codigo-etica {
+    padding: var(--section-y) 0;
+}
+
+#produtos {
+    padding-top: 24vh;
+}
+
+#produtos {
+    background-image: url('../img/página-todos produtos.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#produtos #title h2 {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+
+#produtos .categories {
+    padding-top: 0;
+}
+
+#produtos #container-produtos h2 {
+    font-size: var(--titles);
+    color: var(--frooty-pitaya);
+    font-weight: 800;
+}
+
+#produtos #container-produtos figcaption a{
+    color: var(--paragraph-color);
+    font-weight: 800;
+    font-size: var(--titles);
+    display: block;
+    height: 70px;
+}
+
+
+/*Sessão Slider produtos / Sessão 4*/
+#produtos .slider-produtos{
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.slick-slide img {
+    display: initial;
+}
+#produtos .slider-produtos figure {
+    border-radius: 20px;
+    margin: 0 5rem;
+    position: relative;
+    padding: 0rem 0;
+    transition: .3s ease-in;
+}
+#produtos .slider-produtos figure img{
+    transition: top .5s ease;
+    position: relative;
+    top:0;
+}
+#produtos .slider-produtos figure figcaption h2 {
+    font-weight: 700;
+    font-size: var(--titles);
+    padding: 0 1rem;
+}
+#produtos .slider-produtos figure figcaption h2.conhecer {
+    font-weight: 700;
+    font-size: var(--titles);
+    padding: 0 1rem;
+    color: var(--frooty-roxo);
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
+#produtos .slider-produtos figure figcaption h2.conhecer i {
+    color: var(--frooty-pitaya);
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+#produtos .slider-produtos figure:hover {
+    background-color: var(--frooty-amarelo);
+}
+#produtos .slider-produtos figure:hover img{
+    top: -1.3rem;
+}
+#produtos .slider-produtos figure:hover h2{
+    color: var(--frooty-roxo);
+}
+#produtos .slider-produtos figure:hover h2.conhecer{
+    opacity: 1;
+}
+#produtos .slick-prev:before,
+#produtos .slick-next:before {
+    font-size: 32px;
+}
+#produtos .slider-produtos #slide-produtos-produtos{
+    position: relative;
+    top: 3rem;
+}

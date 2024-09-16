@@ -1,0 +1,134 @@
+#codigo-politicas { background-color: var(--bg-gray-section); }
+
+#codigo-politicas #title,
+#codigo-politicas #sobre-frooty,
+#codigo-politicas #depoimentos-title,
+#codigo-politicas #politicas{
+    padding: var(--section-y) 0;
+}
+
+#codigo-politicas { padding-top: 24vh; }
+
+#codigo-politicas #title h2{
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+
+#codigo-politicas .accordion .accordion-button:not(.collapsed) {
+    color: var(--frooty-roxo);
+    background-color: transparent;
+}
+
+#codigo-politicas .accordion .accordion-button::after {
+    display: none;
+}
+
+#codigo-politicas .accordion .accordion-item {
+    border: none;
+    background-color: transparent;
+}
+
+#codigo-politicas .accordion .accordion-button {
+    padding-left: 0 !important;
+    border-bottom: 1px solid var(--frooty-roxo);
+    background-color: transparent;
+}
+
+#codigo-politicas .accordion-button:focus {
+    /*border-color: transparent;*/
+    outline: 0;
+    box-shadow: none;
+}
+
+#codigo-politicas .accordion h3 button {
+    color: var(--frooty-roxo);
+    font-size: var(--titles);
+    font-weight: 600 !important;
+}
+
+#codigo-politicas .accordion .accordion-item i {
+    color: var(--frooty-pitaya);
+}
+
+#codigo-politicas .accordion table {
+    background-color: #fff;
+}
+
+#codigo-politicas .accordion table thead tr.porcao {
+    background-color: var(--frooty-amarelo);
+    font-weight: 400 !important;
+}
+
+#codigo-politicas .accordion table thead tr.porcao th {
+    border-radius: 15px 15px 0px 0px;
+}
+
+#codigo-politicas .accordion table .header th {
+    color: var(--frooty-roxo);
+    font-weight: 800 !important;
+    border: none;
+}
+
+#codigo-politicas .accordion table tbody td {
+    color: var(--paragraph-color);
+}
+
+#codigo-politicas #container-contato .bg{
+    background-color: #ececec;
+    padding: 6rem;
+    border-radius: 20px;
+}
+#codigo-politicas #container-contato h2 {
+    color: var(--frooty-pitaya);
+    font-weight: 800;
+    font-size: var(--titles);
+}
+
+#codigo-politicas #container-contato input:not(input[type=radio]){
+    padding: 0 1.5rem;
+    height: 50px;
+}
+#codigo-politicas #container-contato input[type=radio]{
+    width: 20px;
+    height: 20px;
+}
+#codigo-politicas #container-contato label.radio {
+    color: var(--paragraph-color);
+}
+#codigo-politicas #container-contato label.radio a{
+    color: var(--frooty-roxo);
+    font-size: var(--terms-text);
+    font-weight: 800;
+}
+#codigo-politicas #container-contato a {
+    color: var(--frooty-roxo);
+}
+#codigo-politicas #container-contato label.radio span{
+    position: relative;
+    top: -3px;
+}
+#codigo-politicas #container-contato input {
+    border: 1px solid #898989;
+    border-radius: 90px;
+    box-sizing: border-box;
+}
+
+#codigo-politicas dl,#codigo-politicas ol,#codigo-politicas ul {
+    margin-bottom: -1rem;
+}
+#codigo-politicas ol li{
+    color: var(--frooty-roxo);
+    font-weight: 600;
+}
+#codigo-politicas .accordion-body {
+    color: var(--paragraph-color);
+}
+#codigo-politicas .accordion-body h3 {
+    font-size: var(--titles);
+    padding-top: 2rem;
+}
+#codigo-politicas ul li{
+    list-style: disc;
+    margin-left: 2rem;
+}

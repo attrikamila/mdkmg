@@ -1,0 +1,83 @@
+#receitas { background-color: var(--bg-gray-section); }
+
+#receitas #title,
+#receitas #comprometimento,
+#receitas #codigo-etica {
+    padding: var(--section-y) 0;
+}
+
+#receitas { padding-top: 24vh; }
+
+#receitas #title {
+    background-image: url('../img/pag-receitas.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#receitas #title h2 {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+#receitas #title h3 {
+    font-size: var(--titles);
+    color: var(--frooty-pitaya);
+    font-weight: 800;
+}
+
+#receitas .receitas figure img {
+    width: 100%;
+    height: 205px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#receitas #filters input,
+#receitas #filters select {
+    height: 50px;
+    border: 1px solid #898989;
+    border-radius: 90px;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-left: 25px;
+    color: var(--paragraph-color);
+}
+#receitas #filters select{
+    background: url('../img/select-arrow.svg') no-repeat 95% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+#receitas #filters i.fa-search{
+    top: 16px;
+    left: 35px;
+    color: var(--frooty-roxo);
+}
+#receitas #filters input {
+    background-color: #fff;
+    padding-left: 55px;
+}
+#receitas #pagination i{
+    padding: 0 5px;
+    cursor: pointer;
+}
+#receitas #pagination i.fa-circle{
+    font-size: .7rem;
+    color: var(--paragraph-color);
+}
+#receitas #pagination i.fa-circle.active{
+    width: 24px;
+    color: var(--frooty-roxo);
+    background-color: var(--frooty-roxo);
+    border-radius: 20px;
+}
+#receitas #pagination i.fa-chevron-left,
+#receitas #pagination i.fa-chevron-right{
+    border: 1px solid var(--paragraph-color);
+    color: var(--frooty-pitaya);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 1.7;
+}

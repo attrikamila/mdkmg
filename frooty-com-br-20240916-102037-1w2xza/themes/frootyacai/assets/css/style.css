@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import url('home.css');
+@import url('a-marca.css');
+@import url('busca.css');
+@import url('codigos-politicas.css');
+@import url('contato.css');
+@import url('error-404.css');
+@import url('fonts.css');
+@import url('food-service.css');
+@import url('onde-encontrar.css');
+@import url('produto.css');
+@import url('produtos.css');
+@import url('receita.css');
+@import url('receitas.css');
+@import url('sobre.css');
+@import url('sustentabilidade.css');
+@import url('trabalhe-conosco.css');
+
+:root {
+    /* Default Var Colors */
+    --frooty-amarelo: #FFCB05;
+    --frooty-roxo: #43297C;
+    --frooty-acai: #87226C;
+    --frooty-blueberry: #125289;
+    --frooty-graviola: #00AF62;
+    --frooty-kiwi: #B1D355;
+    --frooty-pitanga: #C9243F;
+    --frooty-pitaya: #ED0973;
+    --frooty-morango: #EF404A;
+    --frooty-mamao: #F04E23;
+    --frooty-laranja: #F37021;
+    --frooty-banana: #FFF33E;
+    --frooty-copyright: #371D6F;
+    --bg-menu: #FFFFFF;
+    --bg-gray-section: #F7F7F9;
+    --border-light: rgba(137, 137, 137, 0.1);
+
+
+    /*Default texts*/
+    --paragraph-color: #898989;
+    --text-white-color: #FFFFFF;
+    --text-dark-color: #000000;
+
+    /*Font sizes*/
+    --eita-title: 8rem;
+    /*128px*/
+    --big-section-title: 4rem;
+    /*64px*/
+    --medium-section-title: 2.25rem;
+    /*36px*/
+    --section-title: 2rem;
+    /*32px*/
+    --big-title: 3rem;
+    /*48px*/
+    --medium-title: 1.5rem;
+    /*24px*/
+    --titles: 1.25rem;
+    /*20px*/
+    --paragraph-medium: 1.125rem
+        /*18px*/
+    ;
+    --terms-text: 0.875rem;
+    /*14px*/
+
+    /*Borders*/
+    --button-radius: 20px;
+
+    /*Inputs*/
+    --input-height: 50px;
+
+    /*Buttons*/
+    --button-height: 62px;
+    --button-height-medium: 43px;
+    --button-height-small: 37px;
+
+    /*Spaces*/
+    --section-y: 68px;
+
+}
+
+/* Defaults */
+body {
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    background-color: #FFFFFF;
+}
+
+body.position-relative {
+    top: 0 !Important;
+}
+
+.skiptranslate {
+    display: none !important;
+}
+
+.VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q {
+    background: transparent !important;
+    border: none;
+    box-shadow: none !important;
+}
+
+header li font {
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: var(--paragraph-color);
+    font-size: 1rem;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/*Buttons*/
+.button {
+    font-family: "Nunito", sans-serif;
+    font-size: var(--titles);
+    font-weight: 700;
+    height: var(--button-height);
+    border-radius: 30px;
+    width: 268px;
+    border: none;
+}
+
+.button.small {
+    height: var(--button-height-small);
+    width: 100%;
+    font-size: 1rem;
+}
+
+.button.frooty-roxo {
+    color: var(--text-white-color);
+    background-color: var(--frooty-roxo);
+    transition: padding-right .3s ease-in;
+}
+
+.button.frooty-roxo i {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    display: none;
+}
+
+.button.frooty-roxo:hover {
+    background-color: #ffffff;
+    color: var(--frooty-roxo);
+    padding-right: 3rem;
+}
+
+.button.frooty-roxo.pitaya:hover {
+    background-color: var(--frooty-pitaya);
+    color: var(--text-white-color);
+    padding-right: 3rem;
+}
+
+.button.frooty-roxo:hover i {
+    display: inline;
+}
+
+.button.frooty-pitaya {
+    color: var(--text-white-color);
+    background-color: var(--frooty-pitaya);
+    transition: padding-right .3s ease-in;
+}
+
+.button.frooty-pitaya i {
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+
+.button.frooty-pitaya:hover {
+    background-color: var(--frooty-pitaya);
+}
+
+.button.frooty-outline {
+    color: var(--frooty-roxo);
+    background-color: transparent;
+    border: 1px solid var(--frooty-roxo);
+    transition: padding-right .3s ease-in;
+}
+
+.button.frooty-outline i {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    display: none;
+}
+
+.button.frooty-outline:hover {
+    background-color: var(--frooty-pitaya);
+    border: 1px solid var(--frooty-pitaya);
+    color: var(--text-white-color);
+    padding-right: 3rem;
+}
+
+.button.frooty-outline:hover i {
+    display: inline;
+}
+
+.button.frooty-graviola {
+    color: var(--text-white-color);
+    background-color: var(--frooty-graviola);
+    transition: padding-right .3s ease-in;
+}
+
+.button.frooty-graviola i {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    display: none;
+}
+
+.button.frooty-graviola:hover {
+    background-color: #ffffff;
+    color: var(--frooty-graviola);
+    padding-right: 3rem;
+}
+
+.button.frooty-amarelo {
+    color: var(--frooty-roxo);
+    background-color: var(--frooty-amarelo);
+    transition: padding-right .3s ease-in;
+}
+
+.button.frooty-amarelo i {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    display: none;
+}
+
+.button.frooty-amarelo:hover {
+    background-color: #ffffff;
+    color: var(--frooty-amarelo);
+    padding-right: 3rem;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: var(--frooty-roxo) !important;
+}
+
+/*Header*/
+header {
+    /*background-image: url('../img/bg-carousel.png');*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*height: 600px;*/
+    height: auto;
+    width: 100%;
+    position: absolute;
+}
+
+@media screen and (min-width: 992px){
+    header nav {
+    right: 0!important;
+}
+}
+
+header nav {
+    position: relative;
+}
+
+header nav .bg-menu {
+    background: var(--bg-menu);
+    height: 70px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+}
+
+header nav menu,
+header nav .container-logo {
+    z-index: 1000;
+}
+
+header nav menu ul {
+    top: 60px;
+}
+
+header nav menu>ul>li {
+    flex: auto;
+}
+
+header nav menu ul li a {
+    color: var(--frooty-roxo);
+    font-weight: 700;
+}
+
+header nav select.select-input {
+    border: 1px solid #43297c;
+    font-weight: 700;
+    color: #43297c;
+    padding: 0rem 0.9rem;
+    border-radius: 1rem;
+    height: 2rem;
+    margin-top: -1rem;
+}
+
+header nav select.select-input:focus-visible {
+    box-shadow: none!important;
+    outline: none!important;
+    border: 1px solid #43297c;
+}
+
+
+header nav menu ul li .submenu {
+    display: none;
+    background: var(--bg-menu);
+    border-radius: 0 0 10px 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.3s linear;
+    margin-top: -36px;
+    left: 0;
+    width: fit-content;
+}
+
+header nav menu ul li .submenu li {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 1rem;
+}
+
+header nav menu ul .trigger-menu:hover a+.submenu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+header nav menu ul li .submenu a {
+    font-weight: 400;
+    color: var(--text-dark-color);
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-decoration-color: transparent;
+    transition: 1s;
+}
+
+header nav menu ul li .submenu a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--frooty-roxo);
+    text-underline-offset: 4px;
+}
+
+header nav menu .fa-magnifying-glass {
+    font-size: 1.25rem;
+    color: var(--frooty-roxo);
+}
+
+header nav menu small {
+    font-size: 0.6rem;
+    color: var(--paragraph-color);
+}
+
+@media screen and (min-width:767px){
+    header img.img-fluid {
+    width: 100%!important;
+    margin-top: 1.3rem!important;
+    padding-left: 1rem;
+}
+}
+
+
+#search-modal input {
+    height: var(--input-height);
+}
+
+div#search-modal {
+    z-index: 9999 !important;
+}
+
+#search-modal .container-content button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#search-modal .container-content button i {
+    color: var(--frooty-roxo);
+    font-size: 1.5rem;
+}
+
+header .switcher {
+    font-family: Nunito-Regular, 'sans-serif';
+    font-size: 1rem !important;
+    overflow: initial !important;
+    width: 80px;
+    line-height: 0 !important;
+    display: inline-block !important;
+}
+
+header .switcher .selected {
+    background: transparent;
+    z-index: 9999;
+    top: -2px;
+}
+
+header .switcher .selected a {
+    border: none !important;
+    color: #666666;
+    padding: 0;
+    width: auto !important;
+    font-size: .6rem !important;
+    text-transform: uppercase;
+}
+
+header .switcher .selected a:after {
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    background-image: none !important;
+    content: "" !important;
+    transition: all .2s;
+}
+
+header .switcher .option {
+    position: absolute !important;
+    z-index: 9998;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    background-color: #eeeeee !important;
+    width: auto !important;
+    max-height: initial !important;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+
+header .switcher a img {
+    width: 18px;
+}
+
+header .switcher .selected a:hover {
+    background: transparent;
+}
+
+/*Footer -> Contato*/
+footer {
+    position: relative;
+}
+
+footer .contato {
+    background-color: var(--frooty-acai);
+}
+
+footer .contato .bg {
+    background-color: var(--frooty-amarelo);
+    margin-top: -140px;
+    min-height: 227px;
+}
+
+footer .contato .bg h2 {
+    font-weight: 800;
+    color: var(--frooty-roxo);
+    font-size: var(--medium-title);
+}
+
+footer .contato .bg p {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: var(--frooty-roxo);
+    font-size: 1rem;
+}
+
+footer .contato .social h2 {
+    color: var(--text-white-color);
+    font-weight: 700;
+    font-size: var(--titles);
+}
+
+footer .contato .social img {
+    height: 52px;
+}
+
+footer menu {
+    background-color: var(--frooty-roxo);
+    padding: 100px 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+footer menu ul li {
+    margin-bottom: .8rem;
+}
+
+footer menu ul li a {
+    color: var(--text-white-color);
+}
+
+footer menu ul li:first-child a {
+    font-weight: 700;
+    font-size: var(--titles);
+    text-decoration: none;
+}
+
+footer menu ul li:hover a {
+    color: var(--frooty-amarelo);
+}
+
+footer .copyright {
+    min-height: 63px;
+    background-color: var(--frooty-copyright);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+footer .copyright p {
+    color: var(--text-white-color);
+}
+
+/*Depoimentos*/
+#home .depoimentos {
+    padding: var(--section-y) 0;
+    background-color: #FFFFFF;
+    z-index: 100;
+    display: flex;
+}
+
+.depoimentos figure h2 {
+    font-weight: 600;
+    font-size: var(--section-title);
+    color: var(--frooty-roxo);
+    padding: 0 5rem;
+}
+
+.depoimentos .slick-prev:before,
+#slide-produtos-home .slick-prev:before {
+    transform: scaleX(-1);
+    left: .4rem;
+}
+
+.depoimentos .slick-prev:before,
+#slide-produtos-home .slick-prev:before,
+#slide-produtos-home .slick-next:before,
+.depoimentos .slick-next:before {
+    content: "";
+    color: var(--frooty-roxo);
+    opacity: 1;
+    background-image: url("../img/circle-arrow.png");
+    position: absolute;
+    background-size: 100%;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    bottom: 0;
+}
+
+.depoimentos .slick-prev {
+    left: 25px;
+    z-index: 9999;
+}
+
+.depoimentos .slick-next {
+    right: 40px;
+    z-index: 9999;
+}
+
+.depoimentos .slick-next:before {
+    right: 0;
+}
+
+.depoimentos figure figcaption p strong {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--frooty-roxo);
+}
+
+.depoimentos .bg-white {
+    border: 2px solid var(--border-light);
+    border-radius: 40px;
+}
+
+.depoimentos .slick-track {
+    display: flex;
+}
+
+.depoimentos .slick-track .slick-slide {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Sessão Categorias*/
+.categories {
+    padding: var(--section-y) 0;
+    background-color: var(--bg-gray-section);
+    z-index: 100;
+    display: flex;
+}
+
+.categories button {
+    opacity: 0;
+    transition: opacity .3s ease;
+    position: relative;
+    top: 1rem;
+}
+
+.categories h2 {
+    position: relative;
+    font-weight: 800;
+    font-size: var(--titles);
+    color: var(--frooty-roxo);
+    transition: top .3s ease;
+    top: 30px;
+}
+
+.categories figure:hover h2 {
+    top: 10px;
+}
+
+.categories figure:hover button {
+    opacity: 1;
+}
+
+.categories .bg-white {
+    min-height: 320px;
+}
+
+/*Sabor que nutre*/
+#sabor-que-nutre .bg {
+    background-image: url('../img/bg-sabor-que-nutre.png');
+    background-size: cover;
+    min-height: 325px;
+    border-radius: 20px;
+}
+
+#sabor-que-nutre h2 {
+    font-size: var(--titles);
+    color: var(--text-white-color);
+    font-weight: 600;
+}
+
+#sabor-que-nutre p {
+    color: var(--text-white-color);
+    line-height: 1.5;
+}
+
+/*Receitas*/
+.receitas {
+    position: relative;
+    padding: var(--section-y) 0;
+}
+
+.receitas .bg img {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.receitas h2 {
+    font-size: var(--section-title);
+    color: var(--frooty-roxo);
+    font-weight: 700;
+}
+
+.receitas button {
+    height: var(--button-height-medium);
+    width: 11.875rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.receitas ul li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+.receitas ul li a {
+    font-size: var(--titles);
+    color: var(--paragraph-color);
+    text-decoration: none;
+    text-decoration-color: transparent;
+    transition: 1s;
+}
+
+.receitas ul li:hover a {
+    text-decoration: underline;
+    text-decoration-color: var(--frooty-roxo);
+    text-underline-offset: 4px;
+}
+
+.receitas ul li.active a {
+    color: var(--frooty-roxo);
+    font-weight: 700;
+}
+
+.receitas figure h2 {
+    font-weight: 600;
+    font-size: var(--titles);
+    color: var(--frooty-pitaya);
+}
+
+.receitas figure img {
+    width: 100%;
+    height: 205px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.receitas .tab {
+    display: none;
+}
+
+.receitas .tab.active {
+    display: flex;
+}
+
+/*Video*/
+#video {
+    background-image: url("../img/BGvideo-sustentabilidade.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#video video {
+    border-radius: 20px;
+}

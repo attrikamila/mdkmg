@@ -1,0 +1,30 @@
+#error{
+    background-color: var(--bg-gray-section);
+    padding-top: 24vh;
+}
+#error #title,
+#error #comprometimento,
+#error #codigo-etica
+{
+    padding: var(--section-y) 0;
+}
+#error #title{
+    background-image: url('../img/bg-404.png');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 545px;
+}
+
+#error h2{
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--eita-title);
+    color: var(--frooty-roxo);
+}
+#error p{
+    font-size: var(--titles);
+}
+#error p span{
+    color: var(--frooty-pitaya);
+    font-weight: 800;
+}

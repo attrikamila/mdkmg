@@ -1,0 +1,163 @@
+/*Carousel Principal*/
+#sobre #carousel-principal,
+#sobre #visao,
+#sobre #de-onde-vem,
+#sobre #certificacoes,
+#sobre #sabor-que-nutre {
+    background-color: var(--bg-gray-section);
+}
+
+#sobre #carousel-principal .carousel-item {
+    background-position: left;
+    min-height: 500px;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-top: 205px;
+    padding-bottom: 7vh;
+}
+
+#sobre #carousel-principal h2 {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+
+#sobre #carousel-principal h2 span {
+    opacity: .4;
+}
+
+.carousel-indicators .active {
+    width: 24px !important;
+    height: 12px !important;
+    border-radius: 20px !important;
+    border-top: 0px solid transparent !important;
+    border-bottom: 0px solid transparent !important;
+    margin-top: 10px;
+}
+
+#sobre #manifesto,
+#sobre #visao,
+#sobre #certificacoes,
+#sobre #codigo-etica {
+    padding: var(--section-y) 0;
+}
+
+#sobre #manifesto img {
+    height: 575px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#sobre #manifesto h2 {
+    color: var(--frooty-roxo);
+    font-size: var(--titles);
+    font-weight: 800;
+}
+
+#sobre #visao figure img {
+    height: 33px;
+}
+
+#sobre #visao figure figcaption h2 {
+    height: 33px;
+    font-size: var(--titles);
+    color: var(--frooty-roxo);
+    font-weight: 800;
+}
+
+#sobre #visao figure.bg {
+    background: linear-gradient(33.86deg, #43297C 13.47%, #ED0973 193.3%);
+    border-radius: 20px;
+}
+
+#sobre #visao figure.bg figcaption h2,
+#sobre #visao figure.bg figcaption p {
+    color: var(--text-white-color) !important;
+}
+
+#sobre #de-onde-vem .title {
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+
+#sobre #de-onde-vem .content h2,
+#sobre #certificacoes h2,
+#sobre #codigo-etica h2 {
+    font-size: var(--titles);
+    color: var(--frooty-roxo);
+    font-weight: 800;
+}
+#sobre #certificacoes small {
+    font-size: .6rem;
+    color: var(--paragraph-color);
+}
+
+#sobre #de-onde-vem .line {
+    background-image: url('../img/acai-line.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sobre #certificacoes .bg {
+    background-color: #ffffff;
+    border-radius: 20px;
+    min-height: 325px;
+}
+
+#sobre #certificacoes .img-selo {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sobre .modal-body {
+    height: 530px;
+    color: #1e1e1e;
+    font-size: var(--terms-text);
+}
+#sobre .modal-content {
+    border-radius: 20px;
+}
+#sobre .modal-body p{
+    color: #1e1e1e;
+    font-size: var(--terms-text);
+}
+#sobre .modal-body h3{
+    color: var(--frooty-pitaya);
+    font-size: var(--terms-text);
+    font-weight: 800;
+}
+#sobre .modal-body .bg-rounded{
+    background-color: rgba(67, 41, 124, .1);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    line-height: 1.8;
+}
+#sobre .modal-body .bg-rounded i{
+    color: var(--frooty-roxo);
+}
+#sobre .modal-body.bg-roxo p strong{ color: var(--frooty-roxo); }
+#sobre .modal-body.bg-graviola p strong{ color: var(--frooty-graviola); }
+#sobre .modal-body.bg-pitanga p strong{ color: var(--frooty-pitanga); }
+#sobre .modal-body.bg-roxo{
+    background-image: url("../img/bg-modal-roxo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 19px;
+}
+#sobre .modal-body.bg-graviola{
+    background-image: url("../img/bg-modal-graviola.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 19px;
+}
+#sobre .modal-body.bg-pitanga{
+    background-image: url("../img/bg-modal-pitanga.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 19px;
+}

@@ -1,0 +1,41 @@
+#busca{
+    background-color: var(--bg-gray-section);
+    padding-top: 24vh;
+}
+#busca #title,
+#busca #comprometimento,
+#busca #codigo-etica
+{
+    padding: var(--section-y) 0;
+}
+#busca #title h2,
+#busca #result h2{
+    font-size: var(--titles);
+    color: var(--frooty-roxo);
+    font-weight: 800;
+}
+
+#busca #result h3{
+    font-size: var(--titles);
+    color: var(--frooty-pitaya);
+    font-weight: 800;
+}
+
+#busca #result .not-found h2{
+    font-family: "FrootyADP", sans-serif;
+    font-size: var(--big-section-title);
+    color: var(--frooty-roxo);
+}
+
+#busca #result .not-found input {
+    border: 1px solid #898989;
+    border-radius: 90px;
+    box-sizing: border-box;
+    height: 50px;
+    padding-left: 50px;
+}
+#busca #result .not-found i {
+    color: var(--frooty-roxo);
+    top: 16px;
+    left: 20px;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Frooty-Regular;
+    font-weight: 400;
+    src: url('../fonts/Frooty-Regular.ttf');
+}
+@font-face {
+    font-family: FrootyADP;
+    font-weight: 400;
+    src: url('../fonts/FrootyADP-Regular.ttf');
+}
+@font-face {
+    font-family: AutomaticSC;
+    font-weight: 400;
+    src: url('../fonts/AmaticSC-Regular.ttf');
+}
+@font-face {
+    font-family: Corporate-Rounded;
+    font-weight: 800;
+    src: url('../fonts/ufonts.com_corporate-rounded-bold.ttf');
+}
+@font-face {
+    font-family: Nunito-Regular;
+    src: url('../fonts/Nunito-Regular.ttf');
+}
